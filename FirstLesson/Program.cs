@@ -1,2 +1,7 @@
-﻿Console.WriteLine("Hello, World!");
-return 0;
+﻿class TestClass
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine(args.Length);
+    }
+}
